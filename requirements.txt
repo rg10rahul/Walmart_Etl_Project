@@ -1,0 +1,28 @@
+# necessary Python libraries
+kaggle
+pandas
+sqlalchemy
+mysqlconnector
+
+# Environment Setup:
+python -m venv "name of env"
+
+# Vscode terminal commands:
+
+# Kaggle API Setup:
+
+# Create a Kaggle account if you don't have one.
+# Go to your account settings and click on "Create New API Token".
+# This will download a file called kaggle.json.
+# Create a directory for Kaggle configuration
+# Move kaggle.json to the Kaggle directory
+
+# Download Datasets using Kaggle API
+kaggle datasets download -d "dataset-name"
+
+
+# Install the necessary Python libraries
+pip install pandas
+pip install kaggle
+pip install mysql-connector python
+pip install sqlalchemy
